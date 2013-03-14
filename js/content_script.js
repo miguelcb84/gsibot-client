@@ -1,5 +1,8 @@
 jQuery(document).ready(function($){
 
+    /* Store the url shown */
+    var current_url_shown = "" // this is used to avoid continous recharging of the web
+
     /** Hide/show effect */
     $('#bot_chat_window #upper_bar').click(function(){
         $('#bot_chat_window').toggleClass('visible');
