@@ -48,8 +48,9 @@ jQuery(document).ready(function($){
               // scroll display
               scrollDisplay();
               // change url
-              if(data_resp.dialog.url) {
+              if(data_resp.dialog.url & data_resp.dialog.url != current_url_shown) {
                   $('iframe#bot-target').attr('src', data_resp.dialog.url);
+                  current_url_shown = data_resp.dialog.url;
               }
               $input_field.focus();   // set focus on main input
             })
