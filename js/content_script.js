@@ -47,6 +47,10 @@ jQuery(document).ready(function($){
               changeavatar (data_resp.dialog.mood);
               // scroll display
               scrollDisplay();
+              // change url
+              if(data_resp.dialog.url) {
+                  $('iframe#bot-target').attr('src', data_resp.dialog.url);
+              }
               $input_field.focus();   // set focus on main input
             })
           .error(function(data_resp){
