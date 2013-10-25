@@ -11,3 +11,8 @@ Installation instructions
 This is the root github repository of the gsibot-client project. Since the code corresponds to a jacascript thin client, it needs no installation at all. By cloning the project and accessing to the popup.html example html page, you can use it.
 
 For more information, contact us through: http://gsi.dit.upm.es
+
+
+Demo
+-----------------------------
+For a running demo visit http://apps.gsi.dit.upm.es/demos/vademecum/
