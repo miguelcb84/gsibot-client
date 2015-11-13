@@ -66,6 +66,7 @@ The response consist on a json object `dialog` with the following fields:
 * **url**: This is an optional parameter that provides a related url in case the response makes reference to a document. It may be a webpage, an image, a document, etc.
 * **askFeedback**: A boolean field used to instruct the user to show a feedback form about the last interaction. This was included to avoid massive feedback enqueries e.g. after a "hi" "hello" interaction there is no need to gather feedback. Default is false.
 
+A response may also contain a set of dialog fields. Each `dialog` object represents a utterance (which will end-up being different bubbles in the client interface)
 
 An example of response in json format would be:
 
